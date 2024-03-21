@@ -1,0 +1,98 @@
+*{
+    padding: auto;
+    padding: 0%;
+    margin: auto;
+    margin: 0%;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3cap;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border: 3px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img{
+    width: 30%;
+    height: 50%;
+}
+
+section {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3cap;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(0, 0, 0);
+    height: 890px;
+}
+
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3cap;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(0, 0, 0);
+}
+
+main1,main2{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    border: 3cap;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 3px;
+    color: rgb(0, 0, 0);
+    height: 890px;
+}
+
+button {
+    font-family: monospace;
+    font-size: 1.5rem;
+    color: #FAFAFA;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #252525;
+    box-shadow: 3px 3px #fafafa;
+    cursor: pointer;
+    margin: 35px 0;
+  }
+  
+  button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+  }
