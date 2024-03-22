@@ -14,6 +14,6 @@ CREATE TABLE tarefa (
     descricao TEXT NOT NULL,
     data_vencimento DATE,
     status ENUM('A fazer', 'Em andamento', 'Concluido') NOT NULL,
-    idUser int(11) NOT NULL,
-    FOREIGN KEY (idUser) REFERENCES usuario(id)
+    usuario_id int(11) NOT NULL, 
+    FOREIGN KEY (usuario_id) REFERENCES usuario(id) 
 );

@@ -2,14 +2,20 @@ const express = require('express');
 const app = express();
 const db = require('./config/dbConfig'); // Importando a configuração do banco de dados
 const cors = require("cors");
-const routes = require("./routes/usuarioRoutes");
 
 // Configuração do middleware para interpretar JSON no corpo das requisições
 app.use(express.json());
 
+// Habilitando o CORS
+app.use(cors());
+
 // Rotas de Usuários
 const usuarioRoutes = require('./routes/usuarioRoutes');
 app.use('/api/usuarios', usuarioRoutes);
+
+// Rotas de Tarefas
+const tarefaRoutes = require('./routes/tarefaRoutes');
+app.use('/api/tarefas', tarefaRoutes);
 
 // Rota raiz
 app.get('/', (req, res) => {
